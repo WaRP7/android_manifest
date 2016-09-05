@@ -6,6 +6,8 @@
   <default revision="refs/tags/android-5.1.1_r1"
            remote="aosp"
            sync-j="4" />
+  <remote  name="warp7"
+           fetch="https://github.com/WaRP7" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
