@@ -9,6 +9,10 @@
   <remote  name="warp7"
            fetch="https://github.com/WaRP7" />
 
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
+  <project path="external/kernel-headers" name="android_external_kernel-headers" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk-cw-fs" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="broadcom_wlan" />
@@ -80,7 +84,6 @@
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
@@ -127,7 +130,6 @@
   <project path="external/deqp" name="platform/external/deqp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" groups="pdk-cw-fs" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
@@ -182,7 +184,6 @@
   <project path="external/jsr305" name="platform/external/jsr305" groups="pdk-cw-fs,tradefed" />
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,tradefed" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs" />
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
@@ -287,7 +288,6 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
