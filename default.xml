@@ -9,6 +9,7 @@
   <remote  name="warp7"
            fetch="https://github.com/WaRP7" />
 
+  <project path="system/core" name="android_system_core" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="system/extras" name="android_system_extras" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="system/netd" name="android_system_netd" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
@@ -495,7 +496,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
