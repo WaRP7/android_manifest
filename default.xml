@@ -9,6 +9,7 @@
   <remote  name="warp7"
            fetch="https://github.com/WaRP7" />
 
+  <project path="system/netd" name="android_system_netd" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="device/fsl" name="android_device_fsl" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="device,fsl" />
   <project path="build" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" name="android_build" groups="pdk,tradefed" >
@@ -497,7 +498,6 @@
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
