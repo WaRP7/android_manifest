@@ -9,6 +9,7 @@
   <remote  name="warp7"
            fetch="https://github.com/WaRP7" />
 
+  <project path="bionic" name="android_bionic" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="dalvik" name="android_dalvik" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk-cw-fs" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
@@ -32,7 +33,6 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
