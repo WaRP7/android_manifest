@@ -22,6 +22,7 @@
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="broadcom_wlan" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
+  <project path="hardware/realtek" name="android_hardware_realtek" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="libcore" name="android_libcore" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="system/core" name="android_system_core" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="system/extras" name="android_system_extras" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
