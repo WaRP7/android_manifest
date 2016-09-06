@@ -21,6 +21,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="broadcom_wlan" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="qcom_wlan" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="hardware/realtek" name="android_hardware_realtek" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="libcore" name="android_libcore" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
@@ -363,7 +364,6 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
