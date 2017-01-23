@@ -13,6 +13,7 @@
   <project path="dalvik" name="android_dalvik" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk-cw-fs" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk-cw-fs" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="warp7" revision="imx_L5.1.1_2.0.0_7d-beta" groups="pdk-cw-fs" />
@@ -286,7 +287,6 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs" />
-  <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
